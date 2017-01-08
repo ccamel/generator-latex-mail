@@ -1,6 +1,6 @@
 {
   "name": "generator-latex-mail",
-  "version": "0.0.1-SNAPSHOT",
+  "version": "0.0.1",
   "description": "A yeoman template for scaffolding LaTeX administrative mails (in french format)",
   "homepage": "https://github.com/ccamel/generator-latex-mail",
   "author": {
