@@ -1,0 +1,65 @@
+{
+  "name": "generator-latex-mail",
+  "version": "0.0.1",
+  "description": "A yeoman template for scaffolding LaTeX administrative mails (in french format)",
+  "homepage": "https://github.com/ccamel/generator-latex-mail",
+  "author": {
+    "name": "Christophe Camel",
+    "url": "https://github.com/ccamel"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman",
+    "LaTeX",
+    "mail",
+    "yeoman-generator"
+  ],
+  "engines": {
+    "node": ">=5.0 <7",
+    "npm": ">=3.3 <4"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.23.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.0",
+    "glob-fs": "^0.1.6",
+    "remove-ext": "^1.0.0",
+    "moment": "^2.17.1"
+  },
+  "devDependencies": {
+    "yeoman-test": "^1.0.0",
+    "yeoman-assert": "^2.0.0",
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccamel/generator-latex-mail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ccamel/generator-latex-mail/issues"
+  },
+  "scripts": {
+    "prepare": "gulp prepublish",
+    "test": "gulp"
+  },
+  "analyze": true,
+  "license": "Apache-2.0"
+}
