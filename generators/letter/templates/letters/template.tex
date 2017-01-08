@@ -1,0 +1,78 @@
+% Copyright 2016 Christophe Camel
+%
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%    http://www.apache.org/licenses/LICENSE-2.0
+%
+% Unless required by applicable law or agreed to in writing, software
+% distributed under the License is distributed on an "AS IS" BASIS,
+% WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+% See the License for the specific language governing permissions and
+% limitations under the License.
+
+%!TEX encoding = UTF-8 Unicode
+%!TEX TS-program = xelatex
+\documentclass[15pt]{lettre}
+\usepackage{xltxtra}
+\usepackage{xspace}
+\usepackage[frenchb]{babel}
+\usepackage{textcomp}
+\usepackage{paralist}
+\usepackage[autolanguage]{numprint}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{enumitem}
+
+\newenvironment{Quote}[1][2.5em]{\begin{list}{}{\rightmargin0.7cm\leftmargin3cm}\item}{\end{list}}
+
+\raggedright
+\setlength{\parindent}{3pc}
+
+\newcommand\bump[1]{\raisebox{3pt}{#1}}
+
+\sloppy
+
+\date{le <%= date.format('Do MMMM YYYY'); %>}
+\begin{document}
+\institut{assets/institutes/<%= institute %>}
+\begin{letter}{
+  \textbf{Société X}\\
+	Service Y \\
+	1, rue de la Pomme \\
+	02601 Paris
+}
+\def\concname{Objet :~}
+
+\def\concname{}
+\conc{<% if (isRegisteredLetter) { %>
+  \small{\underline{\textbf{Recommandé avec A.R.}}}
+  \\
+  \\<% } %>
+  Objet : <%= subject %>
+}
+
+
+\opening{Madame, Monsieur,}
+
+\thispagestyle{fancy}
+\renewcommand{\headrulewidth}{0cm}
+\lhead{}
+\chead{}
+\rhead{}
+\cfoot{}
+\rfoot{\ldots/\ldots}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra interdum lectus, sit amet viverra augue rhoncus nec. Phasellus egestas augue ac felis iaculis, quis hendrerit tortor ultrices. Etiam magna magna, posuere eget gravida at, tincidunt nec ipsum. Suspendisse blandit arcu in justo egestas, quis fermentum nisi interdum. In vehicula, nisl et accumsan viverra, ante libero gravida neque, at mattis tellus risus eget elit. Praesent posuere egestas urna, eget venenatis lorem mattis id. Vestibulum est turpis, sollicitudin in sagittis sit amet, ullamcorper quis mauris. Aenean sit amet enim arcu. Vestibulum orci quam, pharetra a hendrerit id, interdum ullamcorper arcu. Vestibulum eu lacus sed mauris tincidunt facilisis. In sit amet pulvinar metus. Ut faucibus interdum ex, quis auctor lectus rhoncus sit amet. Aliquam at eleifend felis, ut dictum nisl. Nunc fringilla libero a aliquet congue. Sed congue sem quis urna mollis condimentum. Morbi ac rutrum nibh.
+
+Praesent ac consectetur ipsum, a congue sem. Suspendisse potenti. Integer eu tellus elit. Nulla malesuada ligula ante, at vulputate tortor rutrum sed. Nam ac massa quis nunc convallis sagittis. Sed orci nulla, suscipit sit amet tempus eget, tempor at tellus. Mauris tincidunt felis ut quam dictum iaculis. Etiam vestibulum auctor sem laoreet blandit. Sed id augue augue. Aenean vulputate pretium dui, in laoreet nisi ultrices ullamcorper. Quisque eu ligula ex. Phasellus vitae massa rutrum, sollicitudin elit nec, gravida quam. Ut id rutrum risus. Nam in ex semper, dapibus massa non, blandit libero.
+
+\closing{Vous en remerciant par avance, croyez, Madame, Monsieur, à mes sentiments les meilleurs.}
+
+\thispagestyle{empty}
+
+
+\end{letter}
+
+\end{document}
