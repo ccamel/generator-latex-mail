@@ -1,6 +1,7 @@
 generator-latex-mail
 ====================
 [![Yeoman](https://img.shields.io/badge/generator-yeoman-5aadbb.svg?style=flat)](http://yeoman.io)
+[![Npm](https://img.shields.io/npm/v/generator-latex-mail.svg)](https://www.npmjs.com/package/generator-latex-mail)
 [![LaTex](https://img.shields.io/badge/language-LaTex-7cad22.svg?style=flat)](https://www.latex-project.org)
 [![Apache-2.0](https://img.shields.io/badge/licence-Apache--2.0-lightgrey.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
 
@@ -34,7 +35,7 @@ So you want to play with it. I assume the following is already installed:
 
 - [node.js]
 - [Yeoman]
-- [LaTex] (more precisely [XeLaTeX])
+- [LaTex] - (more precisely [XeLaTeX])
  
  To install [XeLaTeX], I would suggest you to use [TexLive] core or full package. But you are free to use any other distribution. 
  You can have a look to [my environment under Arch](doc/latex-environment.md).
