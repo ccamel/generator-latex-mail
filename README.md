@@ -4,7 +4,7 @@ generator-latex-mail
 [![Npm](https://img.shields.io/npm/v/generator-latex-mail.svg)](https://www.npmjs.com/package/generator-latex-mail)
 [![LaTex](https://img.shields.io/badge/language-LaTex-7cad22.svg?style=flat)](https://www.latex-project.org)
 [![Apache-2.0](https://img.shields.io/badge/licence-Apache--2.0-lightgrey.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Build Status](https://travis-ci.org/ccamel/generator-latex-mail.svg?branch=master)](https://travis-ci.org/ccamel/generator-latex-mail)
+[![Build Status](https://travis-ci.org/ccamel/generator-latex-mail.svg?branch=develop)](https://travis-ci.org/ccamel/generator-latex-mail)
 
 > A [Yeoman] template for scaffolding [LaTeX] administrative mails (in french format)
 
