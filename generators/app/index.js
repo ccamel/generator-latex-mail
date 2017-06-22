@@ -18,7 +18,7 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
-  prompting: function() {
+  prompting: function () {
     this.log(yosay(
       'Welcome to the amazing ' + chalk.red('latex-mail') +
       ' generator!'
@@ -28,15 +28,15 @@ module.exports = yeoman.Base.extend({
       type: 'input',
       name: 'workspace',
       message: 'What is the name of the workspace you want to create ?',
-      default: 'mails',
+      default: 'mails'
     }];
 
-    return this.prompt(prompts).then(function(props) {
+    return this.prompt(prompts).then(function (props) {
       this.props = props;
     }.bind(this));
   },
 
-  writing: function() {
+  writing: function () {
     // copy all non-dotfiles
     this.fs.copy(
       this.templatePath('**/[^_].*'),
@@ -53,17 +53,17 @@ module.exports = yeoman.Base.extend({
                   this.destinationPath('package.json'),
                   this.props
     );
-        this.fs.copy(
+    this.fs.copy(
                       this.templatePath('_gulpfile.js'),
                       this.destinationPath('gulpfile.js')
         );
   },
 
-  install: function() {
-   this.npmInstall(this.devDependencies, { 'saveDev': true });
+  install: function () {
+    this.npmInstall(this.devDependencies, {saveDev: true});
   },
 
-  end: function() {
+  end: function () {
     this.log('----');
     this.log('I\'m done !');
     this.log('You can now continue with the following activities:');

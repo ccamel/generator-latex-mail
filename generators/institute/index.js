@@ -18,7 +18,7 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 
 module.exports = yeoman.Base.extend({
-  prompting: function() {
+  prompting: function () {
     this.log(yosay(
       'Welcome to the amazing ' + chalk.red('latex-mail') +
       ' generator!'
@@ -28,50 +28,50 @@ module.exports = yeoman.Base.extend({
       type: 'input',
       name: 'instituteName',
       message: 'What is the name of the institute (a file that describes the sender)',
-      default: 'default',
+      default: 'default'
     }, {
       type: 'input',
       name: 'senderName',
       message: 'Full name',
-      default: 'John Doe',
+      default: 'John Doe'
     }, {
       type: 'input',
       name: 'senderAddress1',
       message: 'Address 1',
-      default: '10 rue de la Pomme',
+      default: '10 rue de la Pomme'
     }, {
       type: 'input',
       name: 'senderAddress2',
       message: 'Address 2',
-      default: '',
+      default: ''
     }, {
       type: 'input',
       name: 'senderCity',
       message: 'City',
-      default: 'Paris',
+      default: 'Paris'
     }, {
       type: 'input',
       name: 'senderZipCode',
       message: 'Zipcode',
-      default: '75010',
+      default: '75010'
     }, {
       type: 'input',
       name: 'senderPhone',
       message: 'Phone',
-      default: '06 01 02 03 04',
+      default: '06 01 02 03 04'
     }, {
       type: 'input',
       name: 'senderEmail',
       message: 'Email',
-      default: 'john.doe@yopmail.com',
+      default: 'john.doe@yopmail.com'
     }];
 
-    return this.prompt(prompts).then(function(props) {
+    return this.prompt(prompts).then(function (props) {
       this.props = props;
     }.bind(this));
   },
 
-  writing: function() {
+  writing: function () {
     this.fs.copyTpl(
       this.templatePath('assets/institutes/template.ins'),
       this.destinationPath('assets/institutes/' + this.props.instituteName +
@@ -80,9 +80,9 @@ module.exports = yeoman.Base.extend({
     );
   },
 
-  install: function() {},
+  install: function () {},
 
-  end: function() {
+  end: function () {
     this.log('----');
     this.log('I\'m done !');
     this.log('You can now continue with the following activities:');

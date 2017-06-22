@@ -17,15 +17,15 @@ var gulp = require('gulp');
 var exec = require('gulp-exec');
 var print = require('gulp-print');
 var changed = require('gulp-changed');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
 var del = require('del');
 
-var outputPath = 'outputs'
+var outputPath = 'outputs';
 
 /**
  * Clean the temp/ directory.
  */
-gulp.task('clean:temp', function() {
+gulp.task('clean:temp', function () {
   return del([
     'temp/**/*'
   ]);
@@ -36,7 +36,7 @@ gulp.task('clean:temp', function() {
  *   - the temp/ directory (see 'clean:temp' task
  *   - the outputs/ directort (all pdf files)
  */
-gulp.task('clean:all', ['clean:temp'], function() {
+gulp.task('clean:all', ['clean:temp'], function () {
   return del([
     outputPath + '/**/*'
   ]);
@@ -47,7 +47,7 @@ gulp.task('clean:all', ['clean:temp'], function() {
  *
  * Call xelatex command line.
  */
-gulp.task('make', function() {
+gulp.task('make', function () {
   gulp.src('letters/*.tex')
     .pipe(changed(outputPath, {
       extension: '.pdf'
@@ -58,11 +58,11 @@ gulp.task('make', function() {
         outputPath: outputPath
       }))
     .pipe(rename({
-      extname: ".pdf"
+      extname: '.pdf'
     }))
-    .pipe(print(function(filepath) {
+    .pipe(print(function (filepath) {
       return 'generated: ' + filepath;
-    }))
+    }));
 });
 
 gulp.task('default', ['make']);

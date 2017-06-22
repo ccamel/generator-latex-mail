@@ -25,14 +25,14 @@ moment.locale('fr');
 
 module.exports = yeoman.Base.extend({
 
-  initializing: function() {
+  initializing: function () {
     var institutesPath = 'assets/institutes/';
 
     this.log.info('initializing...');
 
     // load available institutes
     this.institutes = glob.readdirSync(institutesPath + '*.ins')
-      .map(function(x) {
+      .map(function (x) {
         return rmExt(x).substring(institutesPath.length);
       });
 
@@ -48,7 +48,7 @@ module.exports = yeoman.Base.extend({
     this.log.info('initialized');
   },
 
-  prompting: function() {
+  prompting: function () {
     // Have Yeoman greet the user.
     this.log(yosay(
       'Welcome to the remarkable ' + chalk.red('generator-latex-mail') +
@@ -59,7 +59,7 @@ module.exports = yeoman.Base.extend({
       type: 'input',
       name: 'letterName',
       message: 'Name of the letter (without extension)',
-      default: 'letter',
+      default: 'letter'
     }, {
       type: 'list',
       name: 'institute',
@@ -77,16 +77,15 @@ module.exports = yeoman.Base.extend({
       default: false
     }];
 
-    return this.prompt(prompts).then(function(props) {
+    return this.prompt(prompts).then(function (props) {
       this.props = props;
 
       // additional context
       this.props.date = moment();
-
     }.bind(this));
   },
 
-  writing: function() {
+  writing: function () {
     this.fs.copyTpl(
       this.templatePath('letters/template.tex'),
       this.destinationPath('letters/' + this.props.letterName + '.tex'),
@@ -94,11 +93,11 @@ module.exports = yeoman.Base.extend({
     );
   },
 
-  install: function() {
+  install: function () {
 
   },
 
-  end: function() {
+  end: function () {
     this.log('----');
     this.log('I\'m done !');
     this.log('You can now continue with the following activities:');
