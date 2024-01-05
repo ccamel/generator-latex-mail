@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ccamel/generator-latex-mail is built on the following main stack:
+
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - [Yeoman](http://yeoman.io/) – Front End Scaffolding Tools
@@ -12,11 +13,13 @@ ccamel/generator-latex-mail is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ccamel/generator-latex-mail is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png' alt='Yeoman'/> [Yeoman](http://yeoman.io/) – Front End Scaffolding Tools
@@ -27,14 +30,15 @@ ccamel/generator-latex-mail is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ccamel/generator-latex-mail](https://github.com/ccamel/generator-latex-mail)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|24<br/>Tools used|11/13/23 <br/>Report generated|
+|25<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -142,12 +146,13 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (13)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (14)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (13)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (14)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
+|[chalk](https://www.npmjs.com/chalk)|v1.0.0|01/08/17|ccamel |MIT|N/A|
 |[eslint-config-xo-space](https://www.npmjs.com/eslint-config-xo-space)|v0.14.0|01/08/17|ccamel |MIT|N/A|
 |[gulp-eslint](https://www.npmjs.com/gulp-eslint)|v2.0.0|01/08/17|ccamel |MIT|N/A|
 |[gulp-exclude-gitignore](https://www.npmjs.com/gulp-exclude-gitignore)|v1.0.0|01/08/17|ccamel |ISC|N/A|
@@ -165,4 +170,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
