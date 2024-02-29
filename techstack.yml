@@ -1,0 +1,356 @@
+repo_name: ccamel/generator-latex-mail
+report_id: 0a3868d38ac8e301cc295c7cc7c4f61d
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:42:35+00:00'
+requested_by: ccamel
+provider: github
+branch: develop
+detected_tools_count: 25
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ccamel/generator-latex-mail
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail
+  detection_source: Repo Metadata
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: Yeoman
+  description: A set of tools for automating development workflow
+  website_url: http://yeoman.io/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Scaffolding Tools
+  image_url: https://img.stackshare.io/service/853/46ea2dd8b1bdd31a8ba61044cb5b6ebe.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: eslint-config-xo-space
+  description: ESLint shareable config for XO with 2-space indent
+  package_url: https://www.npmjs.com/eslint-config-xo-space
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16390/default_f1e46d83300118af569c79b07f85830bc788c2d1.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-exclude-gitignore
+  description: Gulp plugin to exclude file contained in .gitignore from the stream
+  package_url: https://www.npmjs.com/gulp-exclude-gitignore
+  version: 1.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16455/default_ee431b56fd1088dacc89b5f35971ce5954c5c6d3.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-istanbul
+  description: Istanbul unit test coverage plugin for gulp
+  package_url: https://www.npmjs.com/gulp-istanbul
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16133/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-line-ending-corrector
+  description: Gulp Plugin for Line Ending Corrector
+  package_url: https://www.npmjs.com/gulp-line-ending-corrector
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16677/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-mocha
+  description: Run Mocha tests
+  package_url: https://www.npmjs.com/gulp-mocha
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15960/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-nsp
+  description: A gulp module that runs Node Security check
+  package_url: https://www.npmjs.com/gulp-nsp
+  version: 2.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16451/default_d634bba6819a28b85a138b7ded782cadbfa6a482.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Regular Expression Denial of Service in moment
+    cve_id: CVE-2017-18214
+    cve_url: https://github.com/advisories/GHSA-446m-mv8f-q348
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.19.3
+- name: yeoman-assert
+  description: Assert utility from yeoman
+  package_url: https://www.npmjs.com/yeoman-assert
+  version: 2.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16243/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: yeoman-generator
+  description: Rails-inspired generator system that provides scaffolding for your
+    apps
+  package_url: https://www.npmjs.com/yeoman-generator
+  version: 0.23.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15971/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: yeoman-test
+  description: Test utilities for Yeoman generators
+  package_url: https://www.npmjs.com/yeoman-test
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16229/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
+- name: yosay
+  description: Tell Yeoman what to say
+  package_url: https://www.npmjs.com/yosay
+  version: 1.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16124/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/ccamel/generator-latex-mail/blob/develop/package.json
+  detection_source: package.json
+  last_updated_by: ccamel
+  last_updated_on: 2017-01-08 10:17:11.000000000 Z
